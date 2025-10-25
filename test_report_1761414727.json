@@ -1,0 +1,110 @@
+[
+  {
+    "test_name": "Valid Login",
+    "username": "student",
+    "password": "****",
+    "expected": "success",
+    "actual": "success",
+    "status": "PASS",
+    "duration": 19.61,
+    "timestamp": "2025-10-25 20:48:49",
+    "screenshot": "test_Valid_Login_1761414549.png",
+    "error_message": null
+  },
+  {
+    "test_name": "Invalid Username",
+    "username": "invaliduser",
+    "password": "****",
+    "expected": "failure",
+    "actual": "failure",
+    "status": "PASS",
+    "duration": 15.63,
+    "timestamp": "2025-10-25 20:49:10",
+    "screenshot": "test_Invalid_Username_1761414566.png",
+    "error_message": null
+  },
+  {
+    "test_name": "Invalid Password",
+    "username": "student",
+    "password": "****",
+    "expected": "failure",
+    "actual": "failure",
+    "status": "PASS",
+    "duration": 15.56,
+    "timestamp": "2025-10-25 20:49:27",
+    "screenshot": "test_Invalid_Password_1761414582.png",
+    "error_message": null
+  },
+  {
+    "test_name": "Invalid Credentials",
+    "username": "wronguser",
+    "password": "****",
+    "expected": "failure",
+    "actual": "failure",
+    "status": "PASS",
+    "duration": 18.56,
+    "timestamp": "2025-10-25 20:49:43",
+    "screenshot": "test_Invalid_Credentials_1761414602.png",
+    "error_message": null
+  },
+  {
+    "test_name": "Empty Username",
+    "username": "",
+    "password": "****",
+    "expected": "failure",
+    "actual": "failure",
+    "status": "PASS",
+    "duration": 15.77,
+    "timestamp": "2025-10-25 20:50:03",
+    "screenshot": "test_Empty_Username_1761414618.png",
+    "error_message": null
+  },
+  {
+    "test_name": "Empty Password",
+    "username": "student",
+    "password": "",
+    "expected": "failure",
+    "actual": "failure",
+    "status": "PASS",
+    "duration": 15.39,
+    "timestamp": "2025-10-25 20:50:20",
+    "screenshot": "test_Empty_Password_1761414635.png",
+    "error_message": null
+  },
+  {
+    "test_name": "Empty Credentials",
+    "username": "",
+    "password": "",
+    "expected": "failure",
+    "actual": null,
+    "status": "ERROR",
+    "duration": 16.47,
+    "timestamp": "2025-10-25 20:50:36",
+    "screenshot": null,
+    "error_message": "Username field not found"
+  },
+  {
+    "test_name": "SQL Injection Attempt",
+    "username": "admin' OR '1'='1",
+    "password": "****",
+    "expected": "failure",
+    "actual": "success",
+    "status": "FAIL",
+    "duration": 24.05,
+    "timestamp": "2025-10-25 20:50:54",
+    "screenshot": "test_SQL_Injection_Attempt_1761414677.png",
+    "error_message": "Expected failure, got success"
+  },
+  {
+    "test_name": "XSS Attempt",
+    "username": "<script>alert('XSS')</script>",
+    "password": "****",
+    "expected": "failure",
+    "actual": "unknown",
+    "status": "FAIL",
+    "duration": 47.42,
+    "timestamp": "2025-10-25 20:51:19",
+    "screenshot": "test_XSS_Attempt_1761414726.png",
+    "error_message": "Expected failure, got unknown"
+  }
+]
