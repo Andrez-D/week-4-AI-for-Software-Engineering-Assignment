@@ -8,6 +8,28 @@
 > **Building Intelligent Software Solutions** - A comprehensive exploration of AI applications in modern software engineering, demonstrating automated code generation, intelligent testing, and predictive analytics.
 
 ---
+## Screenshots
+<img width="1366" height="768" alt="Screenshot (36)" src="https://github.com/user-attachments/assets/c0453ce6-7692-404b-9e03-6cb111633251" />
+
+<img width="1366" height="768" alt="Screenshot (37)" src="https://github.com/user-attachments/assets/2df788c2-3870-48ff-a471-9a4f2b06e038" />
+
+
+<img width="1366" height="768" alt="Screenshot (38)" src="https://github.com/user-attachments/assets/dff00c05-d32f-458d-b86a-2d7de03f17e3" />
+
+
+
+<img width="1366" height="768" alt="Screenshot (39)" src="https://github.com/user-attachments/assets/7ab6083d-872d-43a2-b871-2fad81b64973" />
+
+
+
+<img width="1366" height="768" alt="Screenshot (40)" src="https://github.com/user-attachments/assets/bfc48c66-c075-4501-8d47-7e712829df27" />
+
+
+<img width="1366" height="768" alt="Screenshot (45)" src="https://github.com/user-attachments/assets/280140ea-4c8d-4c63-8779-cafda0c50abc" />
+
+
+<img width="1366" height="768" alt="Screenshot (46)" src="https://github.com/user-attachments/assets/2b9b2b76-951d-4590-9e57-51c792696bf5" />
+
 
 ## 📖 Table of Contents
 
